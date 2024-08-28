@@ -1,0 +1,43 @@
+!<arch>
+ease_lib.c/     0           0     0     644     173       `
+int add(int a, int b){
+	return a+b;
+}
+int sub(int a, int b){
+        return a-b;
+}
+int mul(int a, int b){
+        return a*b;
+}
+int div(int a, int b){
+        return a/b;
+}
+
+mid_lib.c/      0           0     0     644     389       `
+int mod(int a, int b){
+        return a%b;
+}
+int abs2(int a, int b){
+        if(a > b){
+		return a-b;
+	}
+	else{
+		return b-a;
+	}
+}
+int miny(int a, int b){
+	if(a < b){
+		return a;
+	}
+	else{
+		return b;
+	}
+}
+int maxy(int a, int b){
+        if(a > b){
+                return a;
+        }
+        else{
+                return b;                                                             }
+}
+
